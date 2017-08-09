@@ -1,0 +1,674 @@
+[ 2017-07-31T09:53:39+08:00 ] 127.0.0.1 127.0.0.1 POST /index.php/bis/login/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.057003s ] mysql:dbname=o2o_my;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_bis_account` [ RunTime:0.089006s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_bis_account` WHERE  `username` = 'ce' LIMIT 1 [ RunTime:0.009001s ]
+[ sql ] [ SQL ] UPDATE `o2o_bis_account`  SET `last_login_time`=1501466019,`update_time`=1501466019  WHERE  `id` = 2 [ RunTime:0.071004s ]
+
+---------------------------------------------------------------
+[ 2017-07-31T09:53:43+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/bis/location/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.012001s ] mysql:dbname=o2o_my;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_bis_location` [ RunTime:0.064004s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_bis_location` WHERE  `status` <> -1 ORDER BY `id`  desc [ RunTime:0.001000s ]
+
+---------------------------------------------------------------
+[ 2017-07-31T09:53:46+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/bis/location/add.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.017001s ] mysql:dbname=o2o_my;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_city` [ RunTime:0.185011s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_city` WHERE  `status` = 1  AND `parent_id` = 0 ORDER BY `id`  desc [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_category` [ RunTime:0.057003s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_category` WHERE  `status` = 1  AND `parent_id` = 0 ORDER BY `id`  desc [ RunTime:0.001000s ]
+
+---------------------------------------------------------------
+[ 2017-07-31T09:53:47+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/bis/location/
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:dbname=o2o_my;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_bis_location` [ RunTime:0.010001s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_bis_location` WHERE  `status` <> -1 ORDER BY `id`  desc [ RunTime:0.002000s ]
+
+---------------------------------------------------------------
+[ 2017-07-31T10:09:36+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/bis/location/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002000s ] mysql:dbname=o2o_my;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_bis_location` [ RunTime:0.013001s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_bis_location` WHERE  `status` <> -1 ORDER BY `id`  desc [ RunTime:0.001000s ]
+
+---------------------------------------------------------------
+[ 2017-07-31T10:09:37+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/bis/location/add.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002000s ] mysql:dbname=o2o_my;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_city` [ RunTime:0.013001s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_city` WHERE  `status` = 1  AND `parent_id` = 0 ORDER BY `id`  desc [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_category` [ RunTime:0.016001s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_category` WHERE  `status` = 1  AND `parent_id` = 0 ORDER BY `id`  desc [ RunTime:0.001000s ]
+
+---------------------------------------------------------------
+[ 2017-07-31T10:09:38+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/bis/location/
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:dbname=o2o_my;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_bis_location` [ RunTime:0.015600s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_bis_location` WHERE  `status` <> -1 ORDER BY `id`  desc [ RunTime:0.000000s ]
+
+---------------------------------------------------------------
+[ 2017-07-31T10:10:02+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/bis/location/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.009001s ] mysql:dbname=o2o_my;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_bis_location` [ RunTime:0.011001s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_bis_location` WHERE  `status` <> -1 ORDER BY `id`  desc [ RunTime:0.001000s ]
+
+---------------------------------------------------------------
+[ 2017-07-31T10:10:07+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/bis/location/add.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.014000s ] mysql:dbname=o2o_my;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_city` [ RunTime:0.014001s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_city` WHERE  `status` = 1  AND `parent_id` = 0 ORDER BY `id`  desc [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_category` [ RunTime:0.016000s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_category` WHERE  `status` = 1  AND `parent_id` = 0 ORDER BY `id`  desc [ RunTime:0.001000s ]
+
+---------------------------------------------------------------
+[ 2017-07-31T10:10:08+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/bis/location/
+[ sql ] [ DB ] CONNECT:[ UseTime:0.015600s ] mysql:dbname=o2o_my;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_bis_location` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_bis_location` WHERE  `status` <> -1 ORDER BY `id`  desc [ RunTime:0.000000s ]
+
+---------------------------------------------------------------
+[ 2017-07-31T10:10:51+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/bis/location/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.013001s ] mysql:dbname=o2o_my;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_bis_location` [ RunTime:0.040002s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_bis_location` WHERE  `status` <> -1 ORDER BY `id`  desc [ RunTime:0.015001s ]
+
+---------------------------------------------------------------
+[ 2017-07-31T10:11:48+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/bis/location/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.012001s ] mysql:dbname=o2o_my;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_bis_location` [ RunTime:0.015001s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_bis_location` WHERE  `status` <> -1 ORDER BY `id`  desc [ RunTime:0.002000s ]
+
+---------------------------------------------------------------
+[ 2017-07-31T10:15:39+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/bis/location/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003000s ] mysql:dbname=o2o_my;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_bis_location` [ RunTime:0.012001s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_bis_location` WHERE  `status` <> -1 ORDER BY `id`  desc [ RunTime:0.001000s ]
+
+---------------------------------------------------------------
+[ 2017-07-31T10:21:12+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/bis/location/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002000s ] mysql:dbname=o2o_my;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_bis_location` [ RunTime:0.010001s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_bis_location` WHERE  `status` <> -1 ORDER BY `id`  desc [ RunTime:0.001000s ]
+
+---------------------------------------------------------------
+[ 2017-07-31T10:23:07+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/admin/bis/apply.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011000s ] mysql:dbname=o2o_my;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_bis` [ RunTime:0.007001s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `o2o_bis` WHERE  `status` = 0 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_bis` WHERE  `status` = 0 ORDER BY `id`  desc LIMIT 0,15 [ RunTime:0.001000s ]
+
+---------------------------------------------------------------
+[ 2017-07-31T10:23:09+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/admin/bis/apply.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:dbname=o2o_my;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_bis` [ RunTime:0.008000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `o2o_bis` WHERE  `status` = 0 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_bis` WHERE  `status` = 0 ORDER BY `id`  desc LIMIT 0,15 [ RunTime:0.000000s ]
+
+---------------------------------------------------------------
+[ 2017-07-31T10:23:10+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/admin/bis/apply.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011000s ] mysql:dbname=o2o_my;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_bis` [ RunTime:0.007001s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `o2o_bis` WHERE  `status` = 0 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_bis` WHERE  `status` = 0 ORDER BY `id`  desc LIMIT 0,15 [ RunTime:0.000000s ]
+
+---------------------------------------------------------------
+[ 2017-07-31T10:23:10+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/admin/bis/apply.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:dbname=o2o_my;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_bis` [ RunTime:0.009001s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `o2o_bis` WHERE  `status` = 0 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_bis` WHERE  `status` = 0 ORDER BY `id`  desc LIMIT 0,15 [ RunTime:0.000000s ]
+
+---------------------------------------------------------------
+[ 2017-07-31T10:23:11+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/admin/bis/apply.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:dbname=o2o_my;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_bis` [ RunTime:0.007000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `o2o_bis` WHERE  `status` = 0 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_bis` WHERE  `status` = 0 ORDER BY `id`  desc LIMIT 0,15 [ RunTime:0.000000s ]
+
+---------------------------------------------------------------
+[ 2017-07-31T10:23:12+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/admin/bis/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.013000s ] mysql:dbname=o2o_my;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_bis` [ RunTime:0.015001s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `o2o_bis` WHERE  `status` = 1 LIMIT 1 [ RunTime:0.003001s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_bis` WHERE  `status` = 1 ORDER BY `id`  desc LIMIT 0,15 [ RunTime:0.001000s ]
+
+---------------------------------------------------------------
+[ 2017-07-31T10:23:13+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/admin/bis/apply.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.012000s ] mysql:dbname=o2o_my;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_bis` [ RunTime:0.007001s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `o2o_bis` WHERE  `status` = 0 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_bis` WHERE  `status` = 0 ORDER BY `id`  desc LIMIT 0,15 [ RunTime:0.002000s ]
+
+---------------------------------------------------------------
+[ 2017-07-31T10:23:13+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/admin/bis/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.013001s ] mysql:dbname=o2o_my;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_bis` [ RunTime:0.006000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `o2o_bis` WHERE  `status` = 1 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_bis` WHERE  `status` = 1 ORDER BY `id`  desc LIMIT 0,15 [ RunTime:0.001000s ]
+
+---------------------------------------------------------------
+[ 2017-07-31T10:23:16+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/admin/bis/apply.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.012001s ] mysql:dbname=o2o_my;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_bis` [ RunTime:0.014001s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `o2o_bis` WHERE  `status` = 0 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_bis` WHERE  `status` = 0 ORDER BY `id`  desc LIMIT 0,15 [ RunTime:0.000000s ]
+
+---------------------------------------------------------------
+[ 2017-07-31T10:23:17+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/admin/bis/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002000s ] mysql:dbname=o2o_my;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_bis` [ RunTime:0.007000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `o2o_bis` WHERE  `status` = 1 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_bis` WHERE  `status` = 1 ORDER BY `id`  desc LIMIT 0,15 [ RunTime:0.000000s ]
+
+---------------------------------------------------------------
+[ 2017-07-31T10:23:18+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/admin/bis/apply.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.018001s ] mysql:dbname=o2o_my;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_bis` [ RunTime:0.010001s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `o2o_bis` WHERE  `status` = 0 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_bis` WHERE  `status` = 0 ORDER BY `id`  desc LIMIT 0,15 [ RunTime:0.001000s ]
+
+---------------------------------------------------------------
+[ 2017-07-31T10:23:19+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/admin/bis/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.016001s ] mysql:dbname=o2o_my;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_bis` [ RunTime:0.014001s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `o2o_bis` WHERE  `status` = 1 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_bis` WHERE  `status` = 1 ORDER BY `id`  desc LIMIT 0,15 [ RunTime:0.000000s ]
+
+---------------------------------------------------------------
+[ 2017-07-31T10:23:20+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/admin/bis/apply.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:dbname=o2o_my;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_bis` [ RunTime:0.012001s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `o2o_bis` WHERE  `status` = 0 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_bis` WHERE  `status` = 0 ORDER BY `id`  desc LIMIT 0,15 [ RunTime:0.002000s ]
+
+---------------------------------------------------------------
+[ 2017-07-31T10:23:21+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/admin/bis/apply.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011001s ] mysql:dbname=o2o_my;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_bis` [ RunTime:0.007000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `o2o_bis` WHERE  `status` = 0 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_bis` WHERE  `status` = 0 ORDER BY `id`  desc LIMIT 0,15 [ RunTime:0.000000s ]
+
+---------------------------------------------------------------
+[ 2017-07-31T10:23:26+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/admin/category/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.012001s ] mysql:dbname=o2o_my;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_category` [ RunTime:0.012000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `o2o_category` WHERE  `parent_id` = 0  AND `status` <> -1 LIMIT 1 [ RunTime:0.001001s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_category` WHERE  `parent_id` = 0  AND `status` <> -1 ORDER BY `listorder`  desc,`id`  desc LIMIT 0,15 [ RunTime:0.001000s ]
+
+---------------------------------------------------------------
+[ 2017-07-31T10:23:30+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/admin/category/status.html?id=5&status=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002000s ] mysql:dbname=o2o_my;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_category` [ RunTime:0.006000s ]
+[ sql ] [ SQL ] UPDATE `o2o_category`  SET `status`=1,`update_time`=1501467810  WHERE  `id` = 5 [ RunTime:0.073004s ]
+
+---------------------------------------------------------------
+[ 2017-07-31T10:23:31+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/admin/category/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002000s ] mysql:dbname=o2o_my;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_category` [ RunTime:0.014001s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `o2o_category` WHERE  `parent_id` = 0  AND `status` <> -1 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_category` WHERE  `parent_id` = 0  AND `status` <> -1 ORDER BY `listorder`  desc,`id`  desc LIMIT 0,15 [ RunTime:0.001000s ]
+
+---------------------------------------------------------------
+[ 2017-07-31T10:23:37+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/admin/bis/apply.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002000s ] mysql:dbname=o2o_my;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_bis` [ RunTime:0.011001s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `o2o_bis` WHERE  `status` = 0 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_bis` WHERE  `status` = 0 ORDER BY `id`  desc LIMIT 0,15 [ RunTime:0.001000s ]
+
+---------------------------------------------------------------
+[ 2017-07-31T10:23:40+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/admin/deal/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.021002s ] mysql:dbname=o2o_my;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_category` [ RunTime:0.009000s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_category` WHERE  `status` = 1  AND `parent_id` = 0 ORDER BY `id`  desc [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_city` [ RunTime:0.006001s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_city` WHERE  `status` = 1  AND `parent_id` > 0 ORDER BY `id`  desc [ RunTime:0.006000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_deal` [ RunTime:0.013001s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `o2o_deal` WHERE  `status` = 1 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_deal` WHERE  `status` = 1 ORDER BY `id`  desc LIMIT 0,15 [ RunTime:0.001001s ]
+
+---------------------------------------------------------------
+[ 2017-07-31T10:23:42+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/admin/bis/apply.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:dbname=o2o_my;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_bis` [ RunTime:0.010000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `o2o_bis` WHERE  `status` = 0 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_bis` WHERE  `status` = 0 ORDER BY `id`  desc LIMIT 0,15 [ RunTime:0.001000s ]
+
+---------------------------------------------------------------
+[ 2017-07-31T10:25:14+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/admin/category/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.012000s ] mysql:dbname=o2o_my;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_category` [ RunTime:0.014001s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `o2o_category` WHERE  `parent_id` = 0  AND `status` <> -1 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_category` WHERE  `parent_id` = 0  AND `status` <> -1 ORDER BY `listorder`  desc,`id`  desc LIMIT 0,15 [ RunTime:0.001000s ]
+
+---------------------------------------------------------------
+[ 2017-07-31T10:25:18+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/admin/bis/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.021001s ] mysql:dbname=o2o_my;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_bis` [ RunTime:0.008000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `o2o_bis` WHERE  `status` = 1 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_bis` WHERE  `status` = 1 ORDER BY `id`  desc LIMIT 0,15 [ RunTime:0.001000s ]
+
+---------------------------------------------------------------
+[ 2017-07-31T10:25:19+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/admin/bis/apply.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.005000s ] mysql:dbname=o2o_my;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_bis` [ RunTime:0.007001s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `o2o_bis` WHERE  `status` = 0 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_bis` WHERE  `status` = 0 ORDER BY `id`  desc LIMIT 0,15 [ RunTime:0.001000s ]
+
+---------------------------------------------------------------
+[ 2017-07-31T10:25:20+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/admin/bis/apply.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003001s ] mysql:dbname=o2o_my;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_bis` [ RunTime:0.007000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `o2o_bis` WHERE  `status` = 0 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_bis` WHERE  `status` = 0 ORDER BY `id`  desc LIMIT 0,15 [ RunTime:0.001000s ]
+
+---------------------------------------------------------------
+[ 2017-07-31T10:25:20+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/admin/bis/apply.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003000s ] mysql:dbname=o2o_my;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_bis` [ RunTime:0.009001s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `o2o_bis` WHERE  `status` = 0 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_bis` WHERE  `status` = 0 ORDER BY `id`  desc LIMIT 0,15 [ RunTime:0.000000s ]
+
+---------------------------------------------------------------
+[ 2017-07-31T10:25:22+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/admin/bis/apply.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011001s ] mysql:dbname=o2o_my;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_bis` [ RunTime:0.010001s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `o2o_bis` WHERE  `status` = 0 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_bis` WHERE  `status` = 0 ORDER BY `id`  desc LIMIT 0,15 [ RunTime:0.000000s ]
+
+---------------------------------------------------------------
+[ 2017-07-31T10:25:26+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/admin/bis/apply.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:dbname=o2o_my;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_bis` [ RunTime:0.009001s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `o2o_bis` WHERE  `status` = 0 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_bis` WHERE  `status` = 0 ORDER BY `id`  desc LIMIT 0,15 [ RunTime:0.000000s ]
+
+---------------------------------------------------------------
+[ 2017-07-31T10:28:46+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/bis/location/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.006000s ] mysql:dbname=o2o_my;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_bis_location` [ RunTime:0.010001s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_bis_location` WHERE  `status` <> -1 ORDER BY `id`  desc [ RunTime:0.001000s ]
+
+---------------------------------------------------------------
+[ 2017-07-31T10:28:59+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/admin/bis/apply.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:dbname=o2o_my;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_bis` [ RunTime:0.010001s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `o2o_bis` WHERE  `status` = 0 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_bis` WHERE  `status` = 0 ORDER BY `id`  desc LIMIT 0,15 [ RunTime:0.000000s ]
+
+---------------------------------------------------------------
+[ 2017-07-31T10:35:56+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/admin/category/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003000s ] mysql:dbname=o2o_my;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_category` [ RunTime:0.014001s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `o2o_category` WHERE  `parent_id` = 0  AND `status` <> -1 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_category` WHERE  `parent_id` = 0  AND `status` <> -1 ORDER BY `listorder`  desc,`id`  desc LIMIT 0,15 [ RunTime:0.001000s ]
+
+---------------------------------------------------------------
+[ 2017-07-31T10:42:16+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/admin/category/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002000s ] mysql:dbname=o2o_my;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_category` [ RunTime:0.011001s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `o2o_category` WHERE  `parent_id` = 0  AND `status` <> -1 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_category` WHERE  `parent_id` = 0  AND `status` <> -1 ORDER BY `listorder`  desc,`id`  desc LIMIT 0,15 [ RunTime:0.002000s ]
+
+---------------------------------------------------------------
+[ 2017-07-31T11:40:13+08:00 ] 127.0.0.1 127.0.0.1 POST /index.php/bis/login/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002000s ] mysql:dbname=o2o_my;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_bis_account` [ RunTime:0.011001s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_bis_account` WHERE  `username` = 'ce' LIMIT 1 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] UPDATE `o2o_bis_account`  SET `last_login_time`=1501472413,`update_time`=1501472413  WHERE  `id` = 2 [ RunTime:0.032002s ]
+
+---------------------------------------------------------------
+[ 2017-07-31T11:40:17+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/bis/location/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.004000s ] mysql:dbname=o2o_my;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_bis_location` [ RunTime:0.010001s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_bis_location` WHERE  `status` <> -1 ORDER BY `id`  desc [ RunTime:0.017001s ]
+
+---------------------------------------------------------------
+[ 2017-07-31T11:40:19+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/bis/deal/add.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.031001s ] mysql:dbname=o2o_my;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_city` [ RunTime:0.025001s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_city` WHERE  `status` = 1  AND `parent_id` = 0 ORDER BY `id`  desc [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_category` [ RunTime:0.010001s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_category` WHERE  `status` = 1  AND `parent_id` = 0 ORDER BY `id`  desc [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_bis_location` [ RunTime:0.013001s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_bis_location` WHERE  `bis_id` = 2  AND `status` = 1 ORDER BY `id`  desc [ RunTime:0.010001s ]
+
+---------------------------------------------------------------
+[ 2017-07-31T11:41:03+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/admin/city/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002001s ] mysql:dbname=o2o_my;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_city` [ RunTime:0.009000s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_city` WHERE  `status` = 1  AND `parent_id` = 0 ORDER BY `id`  desc [ RunTime:0.001000s ]
+
+---------------------------------------------------------------
+[ 2017-07-31T11:41:06+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/admin/city/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002000s ] mysql:dbname=o2o_my;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_city` [ RunTime:0.014001s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_city` WHERE  `status` = 1  AND `parent_id` = 0 ORDER BY `id`  desc [ RunTime:0.001000s ]
+
+---------------------------------------------------------------
+[ 2017-07-31T11:41:22+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/admin/city/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.018001s ] mysql:dbname=o2o_my;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_city` [ RunTime:0.009000s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_city` WHERE  `status` = 1  AND `parent_id` = 0 ORDER BY `id`  desc [ RunTime:0.002001s ]
+
+---------------------------------------------------------------
+[ 2017-07-31T11:45:06+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/admin/city/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.013001s ] mysql:dbname=o2o_my;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_city` [ RunTime:0.013001s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_city` WHERE  `status` = 1  AND `parent_id` = 0 ORDER BY `id`  desc [ RunTime:0.000000s ]
+
+---------------------------------------------------------------
+[ 2017-07-31T11:46:20+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/admin/city/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.015001s ] mysql:dbname=o2o_my;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_city` [ RunTime:0.016001s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_city` WHERE  `status` = 1  AND `parent_id` = 0 ORDER BY `id`  desc [ RunTime:0.001000s ]
+
+---------------------------------------------------------------
+[ 2017-07-31T11:46:50+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/admin/city/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011001s ] mysql:dbname=o2o_my;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_city` [ RunTime:0.017001s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_city` WHERE  `status` = 1  AND `parent_id` = 0 ORDER BY `id`  desc [ RunTime:0.001000s ]
+
+---------------------------------------------------------------
+[ 2017-07-31T11:47:49+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/admin/city/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.016001s ] mysql:dbname=o2o_my;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_city` [ RunTime:0.011000s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_city` WHERE  `status` = 1  AND `parent_id` = 0 ORDER BY `id`  desc [ RunTime:0.002001s ]
+
+---------------------------------------------------------------
+[ 2017-07-31T11:48:23+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/admin/city/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003001s ] mysql:dbname=o2o_my;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_city` [ RunTime:0.027001s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_city` WHERE  `status` = 1  AND `parent_id` = 0 ORDER BY `id`  desc [ RunTime:0.001000s ]
+
+---------------------------------------------------------------
+[ 2017-07-31T13:21:18+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/admin/category/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.013000s ] mysql:dbname=o2o_my;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_category` [ RunTime:0.008001s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `o2o_category` WHERE  `parent_id` = 0  AND `status` <> -1 LIMIT 1 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_category` WHERE  `parent_id` = 0  AND `status` <> -1 ORDER BY `listorder`  desc,`id`  desc LIMIT 0,15 [ RunTime:0.002000s ]
+
+---------------------------------------------------------------
+[ 2017-07-31T13:21:19+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/admin/city/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.004000s ] mysql:dbname=o2o_my;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_city` [ RunTime:0.012001s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_city` WHERE  `status` = 1  AND `parent_id` = 0 ORDER BY `id`  desc [ RunTime:0.001000s ]
+
+---------------------------------------------------------------
+[ 2017-07-31T13:21:50+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/admin/city/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.005000s ] mysql:dbname=o2o_my;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_city` [ RunTime:0.019001s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_city` WHERE  `status` = 1  AND `parent_id` = 0 ORDER BY `id`  desc [ RunTime:0.004000s ]
+
+---------------------------------------------------------------
+[ 2017-07-31T13:23:09+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/admin/city/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.028002s ] mysql:dbname=o2o_my;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_city` [ RunTime:0.008000s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_city` WHERE  `status` = 1  AND `parent_id` = 0 ORDER BY `id`  desc [ RunTime:0.001000s ]
+
+---------------------------------------------------------------
+[ 2017-07-31T13:23:12+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/admin/city/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002000s ] mysql:dbname=o2o_my;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_city` [ RunTime:0.007000s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_city` WHERE  `status` = 1  AND `parent_id` = 0 ORDER BY `id`  desc [ RunTime:0.001001s ]
+
+---------------------------------------------------------------
+[ 2017-07-31T13:24:00+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/admin/city/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.012001s ] mysql:dbname=o2o_my;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_city` [ RunTime:0.013000s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_city` WHERE  `status` = 1  AND `parent_id` = 0 ORDER BY `id`  desc [ RunTime:0.001001s ]
+
+---------------------------------------------------------------
+[ 2017-07-31T13:24:12+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/admin/category/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002000s ] mysql:dbname=o2o_my;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_category` [ RunTime:0.014001s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `o2o_category` WHERE  `parent_id` = 0  AND `status` <> -1 LIMIT 1 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_category` WHERE  `parent_id` = 0  AND `status` <> -1 ORDER BY `listorder`  desc,`id`  desc LIMIT 0,15 [ RunTime:0.001000s ]
+
+---------------------------------------------------------------
+[ 2017-07-31T13:26:10+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/admin/featured/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002000s ] mysql:dbname=o2o_my;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_featured` [ RunTime:0.007001s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `o2o_featured` WHERE  `type` = 0  AND `status` <> -1 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_featured` WHERE  `type` = 0  AND `status` <> -1 ORDER BY `id`  desc LIMIT 0,15 [ RunTime:0.002000s ]
+
+---------------------------------------------------------------
+[ 2017-07-31T13:26:12+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/admin/featured/
+[ sql ] [ DB ] CONNECT:[ UseTime:0.015600s ] mysql:dbname=o2o_my;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_featured` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `o2o_featured` WHERE  `type` = 0  AND `status` <> -1 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_featured` WHERE  `type` = 0  AND `status` <> -1 ORDER BY `id`  desc LIMIT 0,15 [ RunTime:0.000000s ]
+
+---------------------------------------------------------------
+[ 2017-07-31T13:26:14+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/admin/featured/
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:dbname=o2o_my;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_featured` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `o2o_featured` WHERE  `type` = 0  AND `status` <> -1 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_featured` WHERE  `type` = 0  AND `status` <> -1 ORDER BY `id`  desc LIMIT 0,15 [ RunTime:0.000000s ]
+
+---------------------------------------------------------------
+[ 2017-07-31T13:26:15+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/admin/featured/
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:dbname=o2o_my;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_featured` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `o2o_featured` WHERE  `type` = 0  AND `status` <> -1 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_featured` WHERE  `type` = 0  AND `status` <> -1 ORDER BY `id`  desc LIMIT 0,15 [ RunTime:0.000000s ]
+
+---------------------------------------------------------------
+[ 2017-07-31T13:26:15+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/admin/featured/
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011001s ] mysql:dbname=o2o_my;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_featured` [ RunTime:0.007000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `o2o_featured` WHERE  `type` = 0  AND `status` <> -1 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_featured` WHERE  `type` = 0  AND `status` <> -1 ORDER BY `id`  desc LIMIT 0,15 [ RunTime:0.001000s ]
+
+---------------------------------------------------------------
+[ 2017-07-31T13:26:20+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/admin/bis/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.004000s ] mysql:dbname=o2o_my;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_bis` [ RunTime:0.008001s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `o2o_bis` WHERE  `status` = 1 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_bis` WHERE  `status` = 1 ORDER BY `id`  desc LIMIT 0,15 [ RunTime:0.001000s ]
+
+---------------------------------------------------------------
+[ 2017-07-31T13:26:20+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/admin/bis/apply.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003000s ] mysql:dbname=o2o_my;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_bis` [ RunTime:0.012001s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `o2o_bis` WHERE  `status` = 0 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_bis` WHERE  `status` = 0 ORDER BY `id`  desc LIMIT 0,15 [ RunTime:0.001000s ]
+
+---------------------------------------------------------------
+[ 2017-07-31T13:26:21+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/admin/bis/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011000s ] mysql:dbname=o2o_my;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_bis` [ RunTime:0.012000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `o2o_bis` WHERE  `status` = 1 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_bis` WHERE  `status` = 1 ORDER BY `id`  desc LIMIT 0,15 [ RunTime:0.001001s ]
+
+---------------------------------------------------------------
+[ 2017-07-31T13:26:22+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/admin/bis/apply.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.012001s ] mysql:dbname=o2o_my;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_bis` [ RunTime:0.008000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `o2o_bis` WHERE  `status` = 0 LIMIT 1 [ RunTime:0.001001s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_bis` WHERE  `status` = 0 ORDER BY `id`  desc LIMIT 0,15 [ RunTime:0.001000s ]
+
+---------------------------------------------------------------
+[ 2017-07-31T13:26:23+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/admin/bis/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.012000s ] mysql:dbname=o2o_my;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_bis` [ RunTime:0.008001s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `o2o_bis` WHERE  `status` = 1 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_bis` WHERE  `status` = 1 ORDER BY `id`  desc LIMIT 0,15 [ RunTime:0.000000s ]
+
+---------------------------------------------------------------
+[ 2017-07-31T13:26:23+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/admin/bis/apply.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.013001s ] mysql:dbname=o2o_my;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_bis` [ RunTime:0.007000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `o2o_bis` WHERE  `status` = 0 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_bis` WHERE  `status` = 0 ORDER BY `id`  desc LIMIT 0,15 [ RunTime:0.001000s ]
+
+---------------------------------------------------------------
+[ 2017-07-31T13:58:01+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/bis/register
+[ sql ] [ DB ] CONNECT:[ UseTime:0.030002s ] mysql:dbname=o2o_my;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_city` [ RunTime:0.018001s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_city` WHERE  `status` = 1  AND `parent_id` = 0 ORDER BY `id`  desc [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_category` [ RunTime:0.009001s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_category` WHERE  `status` = 1  AND `parent_id` = 0 ORDER BY `id`  desc [ RunTime:0.001000s ]
+
+---------------------------------------------------------------
+[ 2017-07-31T13:58:06+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/index/
+[ sql ] [ DB ] CONNECT:[ UseTime:0.015001s ] mysql:dbname=o2o_my;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_city` [ RunTime:0.008000s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_city` WHERE  `status` = 1  AND `parent_id` > 0 ORDER BY `id`  desc [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_city` WHERE  `uname` = 'nanchang' LIMIT 1 [ RunTime:0.047003s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_category` [ RunTime:0.013000s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_category` WHERE  `parent_id` = 0  AND `status` = 1 ORDER BY `listorder`  desc,`id`  desc LIMIT 5 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_category` WHERE  `parent_id` IN (5,4,3,2,1)  AND `status` = 1 ORDER BY `listorder`  desc,`id`  desc [ RunTime:0.024001s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_deal` [ RunTime:0.013001s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_deal` WHERE  `end_time` > 1501480686  AND `category_id` = 1  AND `city_id` = 5  AND `status` = 1 ORDER BY `listorder`  desc,`id`  desc LIMIT 10 [ RunTime:0.013001s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_category` WHERE  `parent_id` = 1  AND `status` = 1 ORDER BY `listorder`  desc,`id`  desc LIMIT 4 [ RunTime:0.001000s ]
+
+---------------------------------------------------------------
+[ 2017-07-31T13:58:08+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/index/
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011001s ] mysql:dbname=o2o_my;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_city` [ RunTime:0.010001s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_city` WHERE  `status` = 1  AND `parent_id` > 0 ORDER BY `id`  desc [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_city` WHERE  `uname` = 'nanchang' LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_category` [ RunTime:0.010001s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_category` WHERE  `parent_id` = 0  AND `status` = 1 ORDER BY `listorder`  desc,`id`  desc LIMIT 5 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_category` WHERE  `parent_id` IN (5,4,3,2,1)  AND `status` = 1 ORDER BY `listorder`  desc,`id`  desc [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_deal` [ RunTime:0.010000s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_deal` WHERE  `end_time` > 1501480688  AND `category_id` = 1  AND `city_id` = 5  AND `status` = 1 ORDER BY `listorder`  desc,`id`  desc LIMIT 10 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_category` WHERE  `parent_id` = 1  AND `status` = 1 ORDER BY `listorder`  desc,`id`  desc LIMIT 4 [ RunTime:0.001000s ]
+
+---------------------------------------------------------------
+[ 2017-07-31T13:58:18+08:00 ] 127.0.0.1 127.0.0.1 POST /index.php/api/city/getcitysbyparentid.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.004000s ] mysql:dbname=o2o_my;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_city` [ RunTime:0.011001s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_city` WHERE  `status` = 1  AND `parent_id` = 4 ORDER BY `id`  desc [ RunTime:0.001000s ]
+
+---------------------------------------------------------------
+[ 2017-07-31T13:58:34+08:00 ] 127.0.0.1 127.0.0.1 POST /index.php/api/category/getcategorybyparentid.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.013001s ] mysql:dbname=o2o_my;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_category` [ RunTime:0.017001s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_category` WHERE  `status` = 1  AND `parent_id` = 5 ORDER BY `id`  desc [ RunTime:0.001000s ]
+
+---------------------------------------------------------------
+[ 2017-07-31T17:45:11+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/bis/register
+[ sql ] [ DB ] CONNECT:[ UseTime:0.024002s ] mysql:dbname=o2o_my;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_city` [ RunTime:0.007000s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_city` WHERE  `status` = 1  AND `parent_id` = 0 ORDER BY `id`  desc [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_category` [ RunTime:0.006001s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_category` WHERE  `status` = 1  AND `parent_id` = 0 ORDER BY `id`  desc [ RunTime:0.000000s ]
+
+---------------------------------------------------------------
+[ 2017-07-31T17:45:21+08:00 ] 127.0.0.1 127.0.0.1 POST /index.php/api/city/getcitysbyparentid.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002000s ] mysql:dbname=o2o_my;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_city` [ RunTime:0.010001s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_city` WHERE  `status` = 1  AND `parent_id` = 4 ORDER BY `id`  desc [ RunTime:0.001000s ]
+
+---------------------------------------------------------------
+[ 2017-07-31T17:45:48+08:00 ] 127.0.0.1 127.0.0.1 POST /index.php/api/category/getcategorybyparentid.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.013001s ] mysql:dbname=o2o_my;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_category` [ RunTime:0.015600s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_category` WHERE  `status` = 1  AND `parent_id` = 4 ORDER BY `id`  desc [ RunTime:0.000000s ]
+
+---------------------------------------------------------------
+[ 2017-07-31T17:46:08+08:00 ] 127.0.0.1 127.0.0.1 POST /index.php/bis/register/add.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002000s ] mysql:dbname=o2o_my;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_bis_account` [ RunTime:0.008001s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_bis_account` WHERE  `username` = 'ce2' LIMIT 1 [ RunTime:0.047002s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_bis` [ RunTime:0.008001s ]
+[ sql ] [ SQL ] INSERT INTO `o2o_bis` (`name` , `city_id` , `city_path` , `logo` , `licence_logo` , `description` , `bank_info` , `bank_user` , `bank_name` , `faren` , `faren_tel` , `email` , `status` , `update_time` , `create_time`) VALUES ('肯德基' , 4 , '4,12' , '/upload\\20170731\\706e2b8b09c62999eb2f2a49ece827dd.jpg' , '/upload\\20170731\\274c28769e4ea6322181dd9e45fde28e.jpg' , '&lt;p&gt;dsds&lt;/p&gt;' , '1' , '1' , '1' , '1' , '1' , '1215798914@qq.com' , 0 , 1501494365 , 1501494365) [ RunTime:0.138008s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_bis_location` [ RunTime:0.015001s ]
+[ sql ] [ SQL ] INSERT INTO `o2o_bis_location` (`bis_id` , `name` , `logo` , `tel` , `contact` , `category_id` , `category_path` , `city_id` , `city_path` , `api_address` , `open_time` , `content` , `is_main` , `xpoint` , `ypoint` , `status` , `update_time` , `create_time`) VALUES (3 , '肯德基' , '/upload\\20170731\\706e2b8b09c62999eb2f2a49ece827dd.jpg' , '1' , '1' , 4 , '4,' , 4 , '4,12' , '泰松工业园d' , 0 , '&lt;p&gt;1&lt;/p&gt;' , 1 , '114.00594760953' , '22.704035006049' , 0 , 1501494365 , 1501494365) [ RunTime:0.050003s ]
+[ sql ] [ SQL ] INSERT INTO `o2o_bis_account` (`bis_id` , `username` , `code` , `password` , `is_main` , `status` , `update_time` , `create_time`) VALUES (3 , 'ce2' , '5251' , '1329dca1be93b4078b3e9057721a6e58' , 1 , 0 , 1501494365 , 1501494365) [ RunTime:0.022001s ]
+
+---------------------------------------------------------------
+[ 2017-07-31T17:46:10+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/bis/register/waiting.html?id=3
+[ sql ] [ DB ] CONNECT:[ UseTime:0.015001s ] mysql:dbname=o2o_my;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_bis` [ RunTime:0.012001s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_bis` WHERE  `id` = 3 LIMIT 1 [ RunTime:0.000000s ]
+
+---------------------------------------------------------------
+[ 2017-07-31T17:46:32+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/bis/register/waiting.html?id=3
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002000s ] mysql:dbname=o2o_my;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_bis` [ RunTime:0.009001s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_bis` WHERE  `id` = 3 LIMIT 1 [ RunTime:0.001000s ]
+
+---------------------------------------------------------------
+[ 2017-07-31T17:46:41+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/bis/register/waiting.html?id=3
+[ sql ] [ DB ] CONNECT:[ UseTime:0.006000s ] mysql:dbname=o2o_my;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_bis` [ RunTime:0.007000s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_bis` WHERE  `id` = 3 LIMIT 1 [ RunTime:0.001000s ]
+
+---------------------------------------------------------------
+[ 2017-07-31T17:49:54+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/bis/register/waiting.html?id=3
+[ sql ] [ DB ] CONNECT:[ UseTime:0.012001s ] mysql:dbname=o2o_my;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_bis` [ RunTime:0.008000s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_bis` WHERE  `id` = 3 LIMIT 1 [ RunTime:0.001000s ]
+
+---------------------------------------------------------------
+[ 2017-07-31T17:50:05+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/bis/register/waiting.html?id=3
+[ sql ] [ DB ] CONNECT:[ UseTime:0.016001s ] mysql:dbname=o2o_my;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_bis` [ RunTime:0.007000s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_bis` WHERE  `id` = 3 LIMIT 1 [ RunTime:0.000000s ]
+
+---------------------------------------------------------------
+[ 2017-07-31T17:50:12+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/admin/bis/apply.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011001s ] mysql:dbname=o2o_my;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_bis` [ RunTime:0.007000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `o2o_bis` WHERE  `status` = 0 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_bis` WHERE  `status` = 0 ORDER BY `id`  desc LIMIT 0,15 [ RunTime:0.000000s ]
+
+---------------------------------------------------------------
+[ 2017-07-31T17:50:15+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/admin/bis/detail.html?id=3
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:dbname=o2o_my;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_city` [ RunTime:0.012001s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_city` WHERE  `status` = 1  AND `parent_id` = 0 ORDER BY `id`  desc [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_category` [ RunTime:0.012001s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_category` WHERE  `status` = 1  AND `parent_id` = 0 ORDER BY `id`  desc [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_bis` [ RunTime:0.016001s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_bis` WHERE  `id` = 3 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_bis_location` [ RunTime:0.010000s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_bis_location` WHERE  `bis_id` = 3  AND `is_main` = 1 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_bis_account` [ RunTime:0.010001s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_bis_account` WHERE  `bis_id` = 3  AND `is_main` = 1 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_city` WHERE  `id` = 12 LIMIT 1 [ RunTime:0.020001s ]
+
+---------------------------------------------------------------
+[ 2017-07-31T17:50:21+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/admin/bis/status.html?id=3&status=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002000s ] mysql:dbname=o2o_my;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_bis` [ RunTime:0.010001s ]
+[ sql ] [ SQL ] UPDATE `o2o_bis`  SET `status`=1,`update_time`=1501494621  WHERE  `id` = 3 [ RunTime:0.169010s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_bis_location` [ RunTime:0.013001s ]
+[ sql ] [ SQL ] UPDATE `o2o_bis_location`  SET `status`=1,`update_time`=1501494621  WHERE  `bis_id` = 3  AND `is_main` = 1 [ RunTime:0.019001s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_bis_account` [ RunTime:0.010001s ]
+[ sql ] [ SQL ] UPDATE `o2o_bis_account`  SET `status`=1,`update_time`=1501494621  WHERE  `bis_id` = 3  AND `is_main` = 1 [ RunTime:0.034002s ]
+
+---------------------------------------------------------------
+[ 2017-07-31T17:50:23+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/admin/bis/apply.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011001s ] mysql:dbname=o2o_my;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_bis` [ RunTime:0.007000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `o2o_bis` WHERE  `status` = 0 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_bis` WHERE  `status` = 0 ORDER BY `id`  desc LIMIT 0,15 [ RunTime:0.001000s ]
+
+---------------------------------------------------------------
+[ 2017-07-31T17:50:24+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/admin/bis/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.039003s ] mysql:dbname=o2o_my;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_bis` [ RunTime:0.007000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `o2o_bis` WHERE  `status` = 1 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_bis` WHERE  `status` = 1 ORDER BY `id`  desc LIMIT 0,15 [ RunTime:0.001000s ]
+
+---------------------------------------------------------------
+[ 2017-07-31T17:50:45+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/admin/city/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.012001s ] mysql:dbname=o2o_my;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_city` [ RunTime:0.009000s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_city` WHERE  `status` = 1  AND `parent_id` = 0 ORDER BY `id`  desc [ RunTime:0.000000s ]
+
+---------------------------------------------------------------
+[ 2017-07-31T17:50:47+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/admin/category/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.017001s ] mysql:dbname=o2o_my;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_category` [ RunTime:0.011000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `o2o_category` WHERE  `parent_id` = 0  AND `status` <> -1 LIMIT 1 [ RunTime:0.001001s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_category` WHERE  `parent_id` = 0  AND `status` <> -1 ORDER BY `listorder`  desc,`id`  desc LIMIT 0,15 [ RunTime:0.001000s ]
+
+---------------------------------------------------------------
+[ 2017-07-31T17:50:58+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/bis/location/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002000s ] mysql:dbname=o2o_my;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_bis_location` [ RunTime:0.014001s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_bis_location` WHERE  `status` <> -1 ORDER BY `id`  desc [ RunTime:0.001000s ]
+
+---------------------------------------------------------------

@@ -1,0 +1,759 @@
+[ 2017-08-07T09:01:06+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/index/
+[ log ] www.abc.com/index.php/index/ [运行时间：7.870451s][吞吐率：0.13req/s] [内存消耗：2,779.41kb] [文件加载：55]
+[ info ] [ LANG ] F:\work\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.abc.com',
+  'connection' => 'keep-alive',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.221 Safari/537.36 SE 2.X MetaSr 1.0',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=8328582144; Huiskin=blue',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ F:\work\thinkphp\application\index\controller\Index.php ]
+[ info ] [ VIEW ] F:\work\thinkphp\public/../application/index\view\index\index.html [ array (
+  0 => 'citys',
+  1 => 'city',
+  2 => 'cats',
+  3 => 'controler',
+  4 => 'user',
+  5 => 'title',
+  6 => 'datas',
+  7 => 'meishicates',
+  8 => 'controller',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-08-07T09:01:07+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/index/
+[ log ] www.abc.com/index.php/index/ [运行时间：0.199011s][吞吐率：5.02req/s] [内存消耗：2,779.27kb] [文件加载：55]
+[ info ] [ LANG ] F:\work\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.abc.com',
+  'connection' => 'keep-alive',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.221 Safari/537.36 SE 2.X MetaSr 1.0',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=8328582144; Huiskin=blue; PHPSESSID=i0ncuei47ui44hcmb10hr6g922',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ F:\work\thinkphp\application\index\controller\Index.php ]
+[ info ] [ VIEW ] F:\work\thinkphp\public/../application/index\view\index\index.html [ array (
+  0 => 'citys',
+  1 => 'city',
+  2 => 'cats',
+  3 => 'controler',
+  4 => 'user',
+  5 => 'title',
+  6 => 'datas',
+  7 => 'meishicates',
+  8 => 'controller',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-08-07T15:34:46+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/admin
+[ log ] www.abc.com/index.php/admin [运行时间：0.406023s][吞吐率：2.46req/s] [内存消耗：1,648.53kb] [文件加载：44]
+[ info ] [ LANG ] F:\work\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.abc.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.10 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'Huiskin=blue',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Index->index[ F:\work\thinkphp\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] F:\work\thinkphp\public/../application/admin\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-08-07T15:34:46+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/admin/index/welcome.html
+[ log ] www.abc.com/index.php/admin/index/welcome.html [运行时间：0.055003s][吞吐率：18.18req/s] [内存消耗：1,578.66kb] [文件加载：42]
+[ info ] [ LANG ] F:\work\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'welcome',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.abc.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.10 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.abc.com/index.php/admin',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'Huiskin=blue',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Index->welcome[ F:\work\thinkphp\application\admin\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-08-07T15:34:51+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/admin/deal/apply.html
+[ log ] www.abc.com/index.php/admin/deal/apply.html [运行时间：0.681039s][吞吐率：1.47req/s] [内存消耗：2,928.09kb] [文件加载：61]
+[ info ] [ LANG ] F:\work\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'deal',
+    2 => 'apply',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.abc.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.10 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.abc.com/index.php/admin',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'Huiskin=blue',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Deal->apply[ F:\work\thinkphp\application\admin\controller\Deal.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] F:\work\thinkphp\public/../application/admin\view\deal\apply.html [ array (
+  0 => 'categorys',
+  1 => 'citys',
+  2 => 'deals',
+  3 => 'category_id',
+  4 => 'city_id',
+  5 => 'start_time',
+  6 => 'end_time',
+  7 => 'name',
+  8 => 'categoryArrs',
+  9 => 'cityArrs',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-08-07T15:34:52+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/admin/deal/index.html
+[ log ] www.abc.com/index.php/admin/deal/index.html [运行时间：0.238014s][吞吐率：4.20req/s] [内存消耗：2,934.30kb] [文件加载：61]
+[ info ] [ LANG ] F:\work\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'deal',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.abc.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.10 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.abc.com/index.php/admin',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'Huiskin=blue',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Deal->index[ F:\work\thinkphp\application\admin\controller\Deal.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] F:\work\thinkphp\public/../application/admin\view\deal\index.html [ array (
+  0 => 'categorys',
+  1 => 'citys',
+  2 => 'deals',
+  3 => 'category_id',
+  4 => 'city_id',
+  5 => 'start_time',
+  6 => 'end_time',
+  7 => 'name',
+  8 => 'categoryArrs',
+  9 => 'cityArrs',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-08-07T15:36:25+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/bis/index/index.html
+[ log ] www.abc.com/index.php/bis/index/index.html [运行时间：0.103005s][吞吐率：9.71req/s] [内存消耗：1,676.84kb] [文件加载：46]
+[ info ] [ LANG ] F:\work\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'bis',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.abc.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.10 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'Huiskin=blue',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-08-07T15:36:25+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/bis/login/index.html
+[ log ] www.abc.com/index.php/bis/login/index.html [运行时间：0.185011s][吞吐率：5.41req/s] [内存消耗：1,656.09kb] [文件加载：44]
+[ info ] [ LANG ] F:\work\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'bis',
+    1 => 'login',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.abc.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.10 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'Huiskin=blue; PHPSESSID=asirob31t5fehjea9ettm5fm76',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\bis\controller\Login->index[ F:\work\thinkphp\application\bis\controller\Login.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] F:\work\thinkphp\public/../application/bis\view\login\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-08-07T15:36:29+08:00 ] 127.0.0.1 127.0.0.1 POST /index.php/bis/login/index.html
+[ log ] www.abc.com/index.php/bis/login/index.html [运行时间：0.244613s][吞吐率：4.09req/s] [内存消耗：2,589.32kb] [文件加载：54]
+[ info ] [ LANG ] F:\work\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'bis',
+    1 => 'login',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.abc.com',
+  'connection' => 'keep-alive',
+  'content-length' => '24',
+  'cache-control' => 'max-age=0',
+  'origin' => 'http://www.abc.com',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.10 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.abc.com/index.php/bis/login/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'Huiskin=blue; PHPSESSID=asirob31t5fehjea9ettm5fm76',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'ce2',
+  'password' => '12',
+)
+[ info ] [ RUN ] app\bis\controller\Login->index[ F:\work\thinkphp\application\bis\controller\Login.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] F:\work\thinkphp\thinkphp\tpl\dispatch_jump.tpl [ array (
+  0 => 'code',
+  1 => 'msg',
+  2 => 'data',
+  3 => 'url',
+  4 => 'wait',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-08-07T15:36:31+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/bis/login/index.html
+[ log ] www.abc.com/index.php/bis/login/index.html [运行时间：0.039003s][吞吐率：25.64req/s] [内存消耗：1,656.09kb] [文件加载：44]
+[ info ] [ LANG ] F:\work\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'bis',
+    1 => 'login',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.abc.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.10 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'Huiskin=blue; PHPSESSID=asirob31t5fehjea9ettm5fm76',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\bis\controller\Login->index[ F:\work\thinkphp\application\bis\controller\Login.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] F:\work\thinkphp\public/../application/bis\view\login\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-08-07T15:36:33+08:00 ] 127.0.0.1 127.0.0.1 POST /index.php/bis/login/index.html
+[ log ] www.abc.com/index.php/bis/login/index.html [运行时间：0.334019s][吞吐率：2.99req/s] [内存消耗：2,749.31kb] [文件加载：58]
+[ info ] [ LANG ] F:\work\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'bis',
+    1 => 'login',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.abc.com',
+  'connection' => 'keep-alive',
+  'content-length' => '25',
+  'cache-control' => 'max-age=0',
+  'origin' => 'http://www.abc.com',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.10 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.abc.com/index.php/bis/login/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'Huiskin=blue; PHPSESSID=asirob31t5fehjea9ettm5fm76',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'ce2',
+  'password' => '123',
+)
+[ info ] [ RUN ] app\bis\controller\Login->index[ F:\work\thinkphp\application\bis\controller\Login.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] F:\work\thinkphp\thinkphp\tpl\dispatch_jump.tpl [ array (
+  0 => 'code',
+  1 => 'msg',
+  2 => 'data',
+  3 => 'url',
+  4 => 'wait',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-08-07T15:36:35+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/bis/index/index.html
+[ log ] www.abc.com/index.php/bis/index/index.html [运行时间：0.077004s][吞吐率：12.99req/s] [内存消耗：1,922.08kb] [文件加载：48]
+[ info ] [ LANG ] F:\work\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'bis',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.abc.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.10 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.abc.com/index.php/bis/login/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'Huiskin=blue; PHPSESSID=asirob31t5fehjea9ettm5fm76',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\bis\controller\Index->index[ F:\work\thinkphp\application\bis\controller\Index.php ]
+[ info ] [ VIEW ] F:\work\thinkphp\public/../application/bis\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-08-07T15:36:38+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/bis/deal/index.html
+[ log ] www.abc.com/index.php/bis/deal/index.html [运行时间：0.308018s][吞吐率：3.25req/s] [内存消耗：2,712.29kb] [文件加载：59]
+[ info ] [ LANG ] F:\work\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'bis',
+    1 => 'deal',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.abc.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.10 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.abc.com/index.php/bis/index/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'Huiskin=blue; PHPSESSID=asirob31t5fehjea9ettm5fm76',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\bis\controller\Deal->index[ F:\work\thinkphp\application\bis\controller\Deal.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] F:\work\thinkphp\public/../application/bis\view\deal\index.html [ array (
+  0 => 'deals',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-08-07T15:36:39+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/bis/deal/add.html
+[ log ] www.abc.com/index.php/bis/deal/add.html [运行时间：0.299017s][吞吐率：3.34req/s] [内存消耗：2,794.98kb] [文件加载：58]
+[ info ] [ LANG ] F:\work\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'bis',
+    1 => 'deal',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.abc.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.10 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.abc.com/index.php/bis/index/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'Huiskin=blue; PHPSESSID=asirob31t5fehjea9ettm5fm76',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\bis\controller\Deal->add[ F:\work\thinkphp\application\bis\controller\Deal.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] F:\work\thinkphp\public/../application/bis\view\deal\add.html [ array (
+  0 => 'citys',
+  1 => 'categorys',
+  2 => 'bislocations',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-08-07T15:36:40+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/bis/deal/
+[ log ] www.abc.com/index.php/bis/deal/ [运行时间：0.104006s][吞吐率：9.61req/s] [内存消耗：2,712.23kb] [文件加载：59]
+[ info ] [ LANG ] F:\work\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'bis',
+    1 => 'deal',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.abc.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.10 Safari/537.36',
+  'x-requested-with' => 'ShockwaveFlash/26.0.0.137',
+  'accept' => '*/*',
+  'referer' => 'http://www.abc.com/index.php/bis/deal/add.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'Huiskin=blue; PHPSESSID=asirob31t5fehjea9ettm5fm76',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\bis\controller\Deal->index[ F:\work\thinkphp\application\bis\controller\Deal.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] F:\work\thinkphp\public/../application/bis\view\deal\index.html [ array (
+  0 => 'deals',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-08-07T15:36:41+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/bis/deal/index.html
+[ log ] www.abc.com/index.php/bis/deal/index.html [运行时间：0.111007s][吞吐率：9.01req/s] [内存消耗：2,712.29kb] [文件加载：59]
+[ info ] [ LANG ] F:\work\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'bis',
+    1 => 'deal',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.abc.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.10 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.abc.com/index.php/bis/index/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'Huiskin=blue; PHPSESSID=asirob31t5fehjea9ettm5fm76',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\bis\controller\Deal->index[ F:\work\thinkphp\application\bis\controller\Deal.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] F:\work\thinkphp\public/../application/bis\view\deal\index.html [ array (
+  0 => 'deals',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-08-07T15:39:29+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/bis/deal/index.html
+[ log ] www.abc.com/index.php/bis/deal/index.html [运行时间：0.133008s][吞吐率：7.52req/s] [内存消耗：2,712.27kb] [文件加载：59]
+[ info ] [ LANG ] F:\work\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'bis',
+    1 => 'deal',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.abc.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.10 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.abc.com/index.php/bis/index/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'Huiskin=blue; PHPSESSID=asirob31t5fehjea9ettm5fm76',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\bis\controller\Deal->index[ F:\work\thinkphp\application\bis\controller\Deal.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] F:\work\thinkphp\public/../application/bis\view\deal\index.html [ array (
+  0 => 'deals',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-08-07T15:39:31+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/bis/deal/index.html
+[ log ] www.abc.com/index.php/bis/deal/index.html [运行时间：0.192011s][吞吐率：5.21req/s] [内存消耗：2,889.48kb] [文件加载：58]
+[ info ] [ LANG ] F:\work\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'bis',
+    1 => 'deal',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.abc.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.10 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.abc.com/index.php/bis/index/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'Huiskin=blue; PHPSESSID=asirob31t5fehjea9ettm5fm76',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\bis\controller\Deal->index[ F:\work\thinkphp\application\bis\controller\Deal.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] F:\work\thinkphp\public/../application/bis\view\deal\index.html [ array (
+  0 => 'deals',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-08-07T15:39:33+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/bis/deal/index.html
+[ log ] www.abc.com/index.php/bis/deal/index.html [运行时间：0.091005s][吞吐率：10.99req/s] [内存消耗：2,724.15kb] [文件加载：56]
+[ info ] [ LANG ] F:\work\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'bis',
+    1 => 'deal',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.abc.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.10 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.abc.com/index.php/bis/index/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'Huiskin=blue; PHPSESSID=asirob31t5fehjea9ettm5fm76',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\bis\controller\Deal->index[ F:\work\thinkphp\application\bis\controller\Deal.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] F:\work\thinkphp\public/../application/bis\view\deal\index.html [ array (
+  0 => 'deals',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------

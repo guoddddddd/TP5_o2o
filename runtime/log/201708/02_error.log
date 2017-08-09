@@ -1,0 +1,48 @@
+[ 2017-08-02T10:30:24+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/bis/location/edit.html?id=4
+[ error ] [1]Call to undefined function app\bis\controller\intdiv()[F:\work\thinkphp\application\bis\controller\Location.php:79]
+
+---------------------------------------------------------------
+[ 2017-08-02T10:33:24+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/bis/location/edit.html?id=4
+[ error ] [1]Call to undefined function app\bis\controller\intdiv()[F:\work\thinkphp\application\bis\controller\Location.php:79]
+
+---------------------------------------------------------------
+[ 2017-08-02T10:33:51+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/bis/location/edit.html?id=4
+[ error ] [8]Undefined property: app\bis\controller\Location::$obg[F:\work\thinkphp\application\bis\controller\Location.php:82]
+
+---------------------------------------------------------------
+[ 2017-08-02T10:34:11+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/bis/location/edit.html?id=4
+[ error ] [0]模板文件不存在:F:\work\thinkphp\public/../application/bis\view\location\edit.html[F:\work\thinkphp\thinkphp\library\think\view\driver\Think.php:80]
+
+---------------------------------------------------------------
+[ 2017-08-02T16:20:46+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/bis/location/edit.html?id=1
+[ error ] [8]未定义变量: location[F:\work\thinkphp\runtime\temp\f55823eed66af3ecced3103b6183c970.php:40]
+
+---------------------------------------------------------------
+[ 2017-08-02T16:21:06+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/bis/location/edit.html?id=4
+[ error ] [8]未定义变量: location[F:\work\thinkphp\runtime\temp\f55823eed66af3ecced3103b6183c970.php:40]
+
+---------------------------------------------------------------
+[ 2017-08-02T16:26:58+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/bis/location/edit.html?id=4
+[ error ] [8]未定义变量: location[F:\work\thinkphp\runtime\temp\f55823eed66af3ecced3103b6183c970.php:40]
+
+---------------------------------------------------------------
+[ 2017-08-02T16:27:45+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/bis/location/edit.html?id=4
+[ error ] [8]未定义变量: category[F:\work\thinkphp\runtime\temp\f55823eed66af3ecced3103b6183c970.php:45]
+
+---------------------------------------------------------------
+[ 2017-08-02T17:37:19+08:00 ] 127.0.0.1 127.0.0.1 POST /index.php/bis/location/update.html
+[ error ] [0]方法参数错误:data[F:\work\thinkphp\thinkphp\library\think\App.php:302]
+
+---------------------------------------------------------------
+[ 2017-08-02T17:38:00+08:00 ] 127.0.0.1 127.0.0.1 POST /index.php/bis/location/update.html
+[ error ] [0]方法参数错误:data[F:\work\thinkphp\thinkphp\library\think\App.php:302]
+
+---------------------------------------------------------------
+[ 2017-08-02T17:38:41+08:00 ] 127.0.0.1 127.0.0.1 POST /index.php/bis/location/update.html
+[ error ] [2]Illegal string offset 'name'[F:\work\thinkphp\application\bis\controller\Location.php:92]
+
+---------------------------------------------------------------
+[ 2017-08-02T17:55:12+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/bis/location/index.html
+[ error ] [2]Missing argument 1 for app\common\model\BisLocation::getLocation(), called in F:\work\thinkphp\application\bis\controller\Location.php on line 17 and defined[F:\work\thinkphp\application\common\model\BisLocation.php:33]
+
+---------------------------------------------------------------

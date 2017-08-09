@@ -1,0 +1,1081 @@
+[ 2017-07-07T09:40:56+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/bis/index/index
+[ log ] www.abc.com/index.php/bis/index/index [运行时间：1.157066s][吞吐率：0.86req/s] [内存消耗：1,676.10kb] [文件加载：46]
+[ info ] [ LANG ] F:\work\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'bis',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.abc.com',
+  'connection' => 'keep-alive',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.221 Safari/537.36 SE 2.X MetaSr 1.0',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=8328582144; Huiskin=blue',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-07-07T09:40:56+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/bis/login/index.html
+[ log ] www.abc.com/index.php/bis/login/index.html [运行时间：0.055003s][吞吐率：18.18req/s] [内存消耗：1,655.30kb] [文件加载：44]
+[ info ] [ LANG ] F:\work\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'bis',
+    1 => 'login',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.abc.com',
+  'connection' => 'keep-alive',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.221 Safari/537.36 SE 2.X MetaSr 1.0',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=8328582144; Huiskin=blue; PHPSESSID=doh3skp2bntrkt6lm9c0v34vn3',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\bis\controller\Login->index[ F:\work\thinkphp\application\bis\controller\Login.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] F:\work\thinkphp\public/../application/bis\view\login\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-07-07T09:41:43+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/bis/register/index.html
+[ log ] www.abc.com/index.php/bis/register/index.html [运行时间：0.408023s][吞吐率：2.45req/s] [内存消耗：2,694.20kb] [文件加载：54]
+[ info ] [ LANG ] F:\work\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'bis',
+    1 => 'register',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.abc.com',
+  'connection' => 'keep-alive',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.221 Safari/537.36 SE 2.X MetaSr 1.0',
+  'referer' => 'http://www.abc.com/index.php/bis/login/index.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=8328582144; Huiskin=blue; PHPSESSID=doh3skp2bntrkt6lm9c0v34vn3',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\bis\controller\Register->index[ F:\work\thinkphp\application\bis\controller\Register.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] F:\work\thinkphp\public/../application/bis\view\register\index.html [ array (
+  0 => 'citys',
+  1 => 'categorys',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-07-07T09:41:45+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/bis/register/
+[ log ] www.abc.com/index.php/bis/register/ [运行时间：0.141008s][吞吐率：7.09req/s] [内存消耗：2,694.13kb] [文件加载：54]
+[ info ] [ LANG ] F:\work\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'bis',
+    1 => 'register',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.abc.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.221 Safari/537.36 SE 2.X MetaSr 1.0',
+  'x-requested-with' => 'ShockwaveFlash/22.0.0.209',
+  'accept' => '*/*',
+  'referer' => 'http://www.abc.com/index.php/bis/register/index.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=8328582144; Huiskin=blue; PHPSESSID=doh3skp2bntrkt6lm9c0v34vn3',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\bis\controller\Register->index[ F:\work\thinkphp\application\bis\controller\Register.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] F:\work\thinkphp\public/../application/bis\view\register\index.html [ array (
+  0 => 'citys',
+  1 => 'categorys',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-07-07T09:41:45+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/bis/register/
+[ log ] www.abc.com/index.php/bis/register/ [运行时间：0.113006s][吞吐率：8.85req/s] [内存消耗：2,694.17kb] [文件加载：54]
+[ info ] [ LANG ] F:\work\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'bis',
+    1 => 'register',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.abc.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.221 Safari/537.36 SE 2.X MetaSr 1.0',
+  'x-requested-with' => 'ShockwaveFlash/22.0.0.209',
+  'accept' => '*/*',
+  'referer' => 'http://www.abc.com/index.php/bis/register/index.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=8328582144; Huiskin=blue; PHPSESSID=doh3skp2bntrkt6lm9c0v34vn3',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\bis\controller\Register->index[ F:\work\thinkphp\application\bis\controller\Register.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] F:\work\thinkphp\public/../application/bis\view\register\index.html [ array (
+  0 => 'citys',
+  1 => 'categorys',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-07-07T09:42:22+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/bis/login/index.html
+[ log ] www.abc.com/index.php/bis/login/index.html [运行时间：0.045002s][吞吐率：22.22req/s] [内存消耗：1,655.30kb] [文件加载：44]
+[ info ] [ LANG ] F:\work\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'bis',
+    1 => 'login',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.abc.com',
+  'connection' => 'keep-alive',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.221 Safari/537.36 SE 2.X MetaSr 1.0',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=8328582144; Huiskin=blue; PHPSESSID=doh3skp2bntrkt6lm9c0v34vn3',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\bis\controller\Login->index[ F:\work\thinkphp\application\bis\controller\Login.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] F:\work\thinkphp\public/../application/bis\view\login\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-07-07T09:42:31+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/bis/index/index.html
+[ log ] www.abc.com/index.php/bis/index/index.html [运行时间：0.072004s][吞吐率：13.89req/s] [内存消耗：1,676.02kb] [文件加载：46]
+[ info ] [ LANG ] F:\work\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'bis',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.abc.com',
+  'connection' => 'keep-alive',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.221 Safari/537.36 SE 2.X MetaSr 1.0',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=8328582144; Huiskin=blue; PHPSESSID=doh3skp2bntrkt6lm9c0v34vn3',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-07-07T09:42:31+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/bis/login/index.html
+[ log ] www.abc.com/index.php/bis/login/index.html [运行时间：0.038002s][吞吐率：26.31req/s] [内存消耗：1,655.30kb] [文件加载：44]
+[ info ] [ LANG ] F:\work\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'bis',
+    1 => 'login',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.abc.com',
+  'connection' => 'keep-alive',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.221 Safari/537.36 SE 2.X MetaSr 1.0',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=8328582144; Huiskin=blue; PHPSESSID=doh3skp2bntrkt6lm9c0v34vn3',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\bis\controller\Login->index[ F:\work\thinkphp\application\bis\controller\Login.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] F:\work\thinkphp\public/../application/bis\view\login\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-07-07T09:43:31+08:00 ] 127.0.0.1 127.0.0.1 POST /index.php/bis/login/index.html
+[ log ] www.abc.com/index.php/bis/login/index.html [运行时间：0.183010s][吞吐率：5.46req/s] [内存消耗：2,588.16kb] [文件加载：54]
+[ info ] [ LANG ] F:\work\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'bis',
+    1 => 'login',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.abc.com',
+  'connection' => 'keep-alive',
+  'content-length' => '27',
+  'cache-control' => 'max-age=0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'origin' => 'http://www.abc.com',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.221 Safari/537.36 SE 2.X MetaSr 1.0',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'referer' => 'http://www.abc.com/index.php/bis/login/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=8328582144; Huiskin=blue; PHPSESSID=doh3skp2bntrkt6lm9c0v34vn3',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'admin',
+  'password' => '123',
+)
+[ info ] [ RUN ] app\bis\controller\Login->index[ F:\work\thinkphp\application\bis\controller\Login.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] F:\work\thinkphp\thinkphp\tpl\dispatch_jump.tpl [ array (
+  0 => 'code',
+  1 => 'msg',
+  2 => 'data',
+  3 => 'url',
+  4 => 'wait',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-07-07T09:43:33+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/bis/login/index.html
+[ log ] www.abc.com/index.php/bis/login/index.html [运行时间：0.045002s][吞吐率：22.22req/s] [内存消耗：1,655.30kb] [文件加载：44]
+[ info ] [ LANG ] F:\work\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'bis',
+    1 => 'login',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.abc.com',
+  'connection' => 'keep-alive',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.221 Safari/537.36 SE 2.X MetaSr 1.0',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=8328582144; Huiskin=blue; PHPSESSID=doh3skp2bntrkt6lm9c0v34vn3',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\bis\controller\Login->index[ F:\work\thinkphp\application\bis\controller\Login.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] F:\work\thinkphp\public/../application/bis\view\login\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-07-07T13:28:03+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/bis/register/index.html
+[ log ] www.abc.com/index.php/bis/register/index.html [运行时间：0.165010s][吞吐率：6.06req/s] [内存消耗：2,694.20kb] [文件加载：54]
+[ info ] [ LANG ] F:\work\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'bis',
+    1 => 'register',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.abc.com',
+  'connection' => 'keep-alive',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.221 Safari/537.36 SE 2.X MetaSr 1.0',
+  'referer' => 'http://www.abc.com/index.php/bis/login/index.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=8328582144; Huiskin=blue; PHPSESSID=doh3skp2bntrkt6lm9c0v34vn3',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\bis\controller\Register->index[ F:\work\thinkphp\application\bis\controller\Register.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] F:\work\thinkphp\public/../application/bis\view\register\index.html [ array (
+  0 => 'citys',
+  1 => 'categorys',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-07-07T13:28:04+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/bis/register/
+[ log ] www.abc.com/index.php/bis/register/ [运行时间：0.102006s][吞吐率：9.80req/s] [内存消耗：2,694.17kb] [文件加载：54]
+[ info ] [ LANG ] F:\work\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'bis',
+    1 => 'register',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.abc.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.221 Safari/537.36 SE 2.X MetaSr 1.0',
+  'x-requested-with' => 'ShockwaveFlash/22.0.0.209',
+  'accept' => '*/*',
+  'referer' => 'http://www.abc.com/index.php/bis/register/index.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=8328582144; Huiskin=blue; PHPSESSID=doh3skp2bntrkt6lm9c0v34vn3',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\bis\controller\Register->index[ F:\work\thinkphp\application\bis\controller\Register.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] F:\work\thinkphp\public/../application/bis\view\register\index.html [ array (
+  0 => 'citys',
+  1 => 'categorys',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-07-07T13:28:05+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/bis/register/
+[ log ] www.abc.com/index.php/bis/register/ [运行时间：0.102006s][吞吐率：9.80req/s] [内存消耗：2,694.17kb] [文件加载：54]
+[ info ] [ LANG ] F:\work\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'bis',
+    1 => 'register',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.abc.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.221 Safari/537.36 SE 2.X MetaSr 1.0',
+  'x-requested-with' => 'ShockwaveFlash/22.0.0.209',
+  'accept' => '*/*',
+  'referer' => 'http://www.abc.com/index.php/bis/register/index.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=8328582144; Huiskin=blue; PHPSESSID=doh3skp2bntrkt6lm9c0v34vn3',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\bis\controller\Register->index[ F:\work\thinkphp\application\bis\controller\Register.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] F:\work\thinkphp\public/../application/bis\view\register\index.html [ array (
+  0 => 'citys',
+  1 => 'categorys',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-07-07T13:28:16+08:00 ] 127.0.0.1 127.0.0.1 POST /index.php/api/city/getcitysbyparentid.html
+[ log ] www.abc.com/index.php/api/city/getcitysbyparentid.html [运行时间：0.152009s][吞吐率：6.58req/s] [内存消耗：2,565.17kb] [文件加载：52]
+[ info ] [ LANG ] F:\work\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'city',
+    2 => 'getcitysbyparentid',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.abc.com',
+  'connection' => 'keep-alive',
+  'content-length' => '4',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://www.abc.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.221 Safari/537.36 SE 2.X MetaSr 1.0',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://www.abc.com/index.php/bis/register/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=8328582144; Huiskin=blue; PHPSESSID=doh3skp2bntrkt6lm9c0v34vn3',
+)
+[ info ] [ PARAM ] array (
+  'id' => '4',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\api\controller\City->getCitysByParentId[ F:\work\thinkphp\application\api\controller\City.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-07-07T13:28:35+08:00 ] 127.0.0.1 127.0.0.1 POST /index.php/api/category/getcategorybyparentid.html
+[ log ] www.abc.com/index.php/api/category/getcategorybyparentid.html [运行时间：0.081005s][吞吐率：12.34req/s] [内存消耗：2,568.46kb] [文件加载：52]
+[ info ] [ LANG ] F:\work\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'category',
+    2 => 'getcategorybyparentid',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.abc.com',
+  'connection' => 'keep-alive',
+  'content-length' => '4',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://www.abc.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.221 Safari/537.36 SE 2.X MetaSr 1.0',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://www.abc.com/index.php/bis/register/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=8328582144; Huiskin=blue; PHPSESSID=doh3skp2bntrkt6lm9c0v34vn3',
+)
+[ info ] [ PARAM ] array (
+  'id' => '5',
+)
+[ info ] [ RUN ] app\api\controller\Category->getCategoryByParentId[ F:\work\thinkphp\application\api\controller\Category.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-07-07T13:28:37+08:00 ] 127.0.0.1 127.0.0.1 POST /index.php/bis/register/add.html
+[ log ] www.abc.com/index.php/bis/register/add.html [运行时间：0.071004s][吞吐率：14.08req/s] [内存消耗：1,623.38kb] [文件加载：45]
+[ info ] [ LANG ] F:\work\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'bis',
+    1 => 'register',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.abc.com',
+  'connection' => 'keep-alive',
+  'content-length' => '213',
+  'cache-control' => 'max-age=0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'origin' => 'http://www.abc.com',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.221 Safari/537.36 SE 2.X MetaSr 1.0',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'referer' => 'http://www.abc.com/index.php/bis/register/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=8328582144; Huiskin=blue; PHPSESSID=doh3skp2bntrkt6lm9c0v34vn3',
+)
+[ info ] [ PARAM ] array (
+  'name' => '测试2',
+  'city_id' => '4',
+  'se_city_id' => '13',
+  'logo' => '',
+  'licence_logo' => '',
+  'bank_info' => '',
+  'bank_name' => '',
+  'bank_user' => '',
+  'faren' => '',
+  'faren_tel' => '',
+  'email' => '1215798914@qq.com',
+  'tel' => '',
+  'contact' => '',
+  'category_id' => '5',
+  'address' => '',
+  'open_time' => '',
+  'username' => '',
+  'password' => '',
+)
+[ info ] [ RUN ] app\bis\controller\Register->add[ F:\work\thinkphp\application\bis\controller\Register.php ]
+[ info ] [ VIEW ] F:\work\thinkphp\thinkphp\tpl\dispatch_jump.tpl [ array (
+  0 => 'code',
+  1 => 'msg',
+  2 => 'data',
+  3 => 'url',
+  4 => 'wait',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-07-07T13:28:40+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/bis/register/
+[ log ] www.abc.com/index.php/bis/register/ [运行时间：0.115007s][吞吐率：8.70req/s] [内存消耗：2,694.13kb] [文件加载：54]
+[ info ] [ LANG ] F:\work\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'bis',
+    1 => 'register',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.abc.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.221 Safari/537.36 SE 2.X MetaSr 1.0',
+  'x-requested-with' => 'ShockwaveFlash/22.0.0.209',
+  'accept' => '*/*',
+  'referer' => 'http://www.abc.com/index.php/bis/register/index.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=8328582144; Huiskin=blue; PHPSESSID=doh3skp2bntrkt6lm9c0v34vn3',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\bis\controller\Register->index[ F:\work\thinkphp\application\bis\controller\Register.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] F:\work\thinkphp\public/../application/bis\view\register\index.html [ array (
+  0 => 'citys',
+  1 => 'categorys',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-07-07T13:28:40+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/bis/register/
+[ log ] www.abc.com/index.php/bis/register/ [运行时间：0.084005s][吞吐率：11.90req/s] [内存消耗：2,694.17kb] [文件加载：54]
+[ info ] [ LANG ] F:\work\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'bis',
+    1 => 'register',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.abc.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.221 Safari/537.36 SE 2.X MetaSr 1.0',
+  'x-requested-with' => 'ShockwaveFlash/22.0.0.209',
+  'accept' => '*/*',
+  'referer' => 'http://www.abc.com/index.php/bis/register/index.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=8328582144; Huiskin=blue; PHPSESSID=doh3skp2bntrkt6lm9c0v34vn3',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\bis\controller\Register->index[ F:\work\thinkphp\application\bis\controller\Register.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] F:\work\thinkphp\public/../application/bis\view\register\index.html [ array (
+  0 => 'citys',
+  1 => 'categorys',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-07-07T13:28:47+08:00 ] 127.0.0.1 127.0.0.1 POST /index.php/api/image/upload.html
+[ log ] www.abc.com/index.php/api/image/upload.html [运行时间：0.177010s][吞吐率：5.65req/s] [内存消耗：1,662.50kb] [文件加载：44]
+[ info ] [ LANG ] F:\work\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'image',
+    2 => 'upload',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.abc.com',
+  'connection' => 'keep-alive',
+  'content-length' => '621302',
+  'origin' => 'http://www.abc.com',
+  'x-requested-with' => 'ShockwaveFlash/22.0.0.209',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.221 Safari/537.36 SE 2.X MetaSr 1.0',
+  'content-type' => 'multipart/form-data; boundary=----------ae0KM7Ef1GI3ei4GI3gL6cH2GI3KM7',
+  'accept' => '*/*',
+  'referer' => 'http://www.abc.com/index.php/bis/register/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=8328582144; Huiskin=blue; PHPSESSID=doh3skp2bntrkt6lm9c0v34vn3',
+)
+[ info ] [ PARAM ] array (
+  'Filename' => 'Tulips.jpg',
+  'Upload' => 'Submit Query',
+)
+[ info ] [ RUN ] app\api\controller\Image->upload[ F:\work\thinkphp\application\api\controller\Image.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-07-07T13:28:50+08:00 ] 127.0.0.1 127.0.0.1 POST /index.php/bis/register/add.html
+[ log ] www.abc.com/index.php/bis/register/add.html [运行时间：0.048003s][吞吐率：20.83req/s] [内存消耗：1,623.45kb] [文件加载：45]
+[ info ] [ LANG ] F:\work\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'bis',
+    1 => 'register',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.abc.com',
+  'connection' => 'keep-alive',
+  'content-length' => '258',
+  'cache-control' => 'max-age=0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'origin' => 'http://www.abc.com',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.221 Safari/537.36 SE 2.X MetaSr 1.0',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'referer' => 'http://www.abc.com/index.php/bis/register/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=8328582144; Huiskin=blue; PHPSESSID=doh3skp2bntrkt6lm9c0v34vn3',
+)
+[ info ] [ PARAM ] array (
+  'name' => '测试2',
+  'city_id' => '4',
+  'logo' => '/upload\\20170707\\10ab1d5ac1655294dca7156a20e2841f.jpg',
+  'licence_logo' => '',
+  'bank_info' => '',
+  'bank_name' => '',
+  'bank_user' => '',
+  'faren' => '',
+  'faren_tel' => '',
+  'email' => '1215798914@qq.com',
+  'tel' => '',
+  'contact' => '',
+  'category_id' => '5',
+  'address' => '',
+  'open_time' => '',
+  'username' => '',
+  'password' => '',
+)
+[ info ] [ RUN ] app\bis\controller\Register->add[ F:\work\thinkphp\application\bis\controller\Register.php ]
+[ info ] [ VIEW ] F:\work\thinkphp\thinkphp\tpl\dispatch_jump.tpl [ array (
+  0 => 'code',
+  1 => 'msg',
+  2 => 'data',
+  3 => 'url',
+  4 => 'wait',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-07-07T13:28:53+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/bis/register/
+[ log ] www.abc.com/index.php/bis/register/ [运行时间：0.103006s][吞吐率：9.71req/s] [内存消耗：2,694.17kb] [文件加载：54]
+[ info ] [ LANG ] F:\work\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'bis',
+    1 => 'register',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.abc.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.221 Safari/537.36 SE 2.X MetaSr 1.0',
+  'x-requested-with' => 'ShockwaveFlash/22.0.0.209',
+  'accept' => '*/*',
+  'referer' => 'http://www.abc.com/index.php/bis/register/index.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=8328582144; Huiskin=blue; PHPSESSID=doh3skp2bntrkt6lm9c0v34vn3',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\bis\controller\Register->index[ F:\work\thinkphp\application\bis\controller\Register.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] F:\work\thinkphp\public/../application/bis\view\register\index.html [ array (
+  0 => 'citys',
+  1 => 'categorys',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-07-07T13:28:53+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/bis/register/
+[ log ] www.abc.com/index.php/bis/register/ [运行时间：0.151009s][吞吐率：6.62req/s] [内存消耗：2,694.17kb] [文件加载：54]
+[ info ] [ LANG ] F:\work\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'bis',
+    1 => 'register',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.abc.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.221 Safari/537.36 SE 2.X MetaSr 1.0',
+  'x-requested-with' => 'ShockwaveFlash/22.0.0.209',
+  'accept' => '*/*',
+  'referer' => 'http://www.abc.com/index.php/bis/register/index.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=8328582144; Huiskin=blue; PHPSESSID=doh3skp2bntrkt6lm9c0v34vn3',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\bis\controller\Register->index[ F:\work\thinkphp\application\bis\controller\Register.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] F:\work\thinkphp\public/../application/bis\view\register\index.html [ array (
+  0 => 'citys',
+  1 => 'categorys',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-07-07T13:28:58+08:00 ] 127.0.0.1 127.0.0.1 POST /index.php/api/image/upload.html
+[ log ] www.abc.com/index.php/api/image/upload.html [运行时间：0.055003s][吞吐率：18.18req/s] [内存消耗：1,662.51kb] [文件加载：44]
+[ info ] [ LANG ] F:\work\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'image',
+    2 => 'upload',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.abc.com',
+  'connection' => 'keep-alive',
+  'content-length' => '846355',
+  'origin' => 'http://www.abc.com',
+  'x-requested-with' => 'ShockwaveFlash/22.0.0.209',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.221 Safari/537.36 SE 2.X MetaSr 1.0',
+  'content-type' => 'multipart/form-data; boundary=----------ei4GI3gL6GI3Ij5KM7cH2ei4cH2GI3',
+  'accept' => '*/*',
+  'referer' => 'http://www.abc.com/index.php/bis/register/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=8328582144; Huiskin=blue; PHPSESSID=doh3skp2bntrkt6lm9c0v34vn3',
+)
+[ info ] [ PARAM ] array (
+  'Filename' => 'Desert.jpg',
+  'Upload' => 'Submit Query',
+)
+[ info ] [ RUN ] app\api\controller\Image->upload[ F:\work\thinkphp\application\api\controller\Image.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-07-07T13:29:01+08:00 ] 127.0.0.1 127.0.0.1 POST /index.php/api/image/upload.html
+[ log ] www.abc.com/index.php/api/image/upload.html [运行时间：0.069004s][吞吐率：14.49req/s] [内存消耗：1,662.50kb] [文件加载：44]
+[ info ] [ LANG ] F:\work\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'image',
+    2 => 'upload',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.abc.com',
+  'connection' => 'keep-alive',
+  'content-length' => '621302',
+  'origin' => 'http://www.abc.com',
+  'x-requested-with' => 'ShockwaveFlash/22.0.0.209',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.221 Safari/537.36 SE 2.X MetaSr 1.0',
+  'content-type' => 'multipart/form-data; boundary=----------cH2ae0gL6ei4Ef1ae0gL6ei4Ef1Ef1',
+  'accept' => '*/*',
+  'referer' => 'http://www.abc.com/index.php/bis/register/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=8328582144; Huiskin=blue; PHPSESSID=doh3skp2bntrkt6lm9c0v34vn3',
+)
+[ info ] [ PARAM ] array (
+  'Filename' => 'Tulips.jpg',
+  'Upload' => 'Submit Query',
+)
+[ info ] [ RUN ] app\api\controller\Image->upload[ F:\work\thinkphp\application\api\controller\Image.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-07-07T13:29:11+08:00 ] 127.0.0.1 127.0.0.1 POST /index.php/bis/register/add.html
+[ log ] www.abc.com/index.php/bis/register/add.html [运行时间：0.064004s][吞吐率：15.62req/s] [内存消耗：1,623.66kb] [文件加载：45]
+[ info ] [ LANG ] F:\work\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'bis',
+    1 => 'register',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.abc.com',
+  'connection' => 'keep-alive',
+  'content-length' => '357',
+  'cache-control' => 'max-age=0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'origin' => 'http://www.abc.com',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.221 Safari/537.36 SE 2.X MetaSr 1.0',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'referer' => 'http://www.abc.com/index.php/bis/register/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=8328582144; Huiskin=blue; PHPSESSID=doh3skp2bntrkt6lm9c0v34vn3',
+)
+[ info ] [ PARAM ] array (
+  'name' => '测试2',
+  'city_id' => '4',
+  'se_city_id' => '0',
+  'logo' => '/upload\\20170707\\846f51bf684f05a8397cdd8a097de1d4.jpg',
+  'licence_logo' => '/upload\\20170707\\8cf4a96be904b24c4987ab1c15e32be1.jpg',
+  'bank_info' => '',
+  'bank_name' => '',
+  'bank_user' => '',
+  'faren' => '',
+  'faren_tel' => '',
+  'email' => '1215798914@qq.com',
+  'tel' => '',
+  'contact' => '',
+  'category_id' => '5',
+  'address' => '深圳市',
+  'open_time' => '',
+  'username' => '',
+  'password' => '',
+)
+[ info ] [ RUN ] app\bis\controller\Register->add[ F:\work\thinkphp\application\bis\controller\Register.php ]
+[ info ] [ VIEW ] F:\work\thinkphp\thinkphp\tpl\dispatch_jump.tpl [ array (
+  0 => 'code',
+  1 => 'msg',
+  2 => 'data',
+  3 => 'url',
+  4 => 'wait',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-07-07T13:29:14+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/bis/register/
+[ log ] www.abc.com/index.php/bis/register/ [运行时间：0.093006s][吞吐率：10.75req/s] [内存消耗：2,694.17kb] [文件加载：54]
+[ info ] [ LANG ] F:\work\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'bis',
+    1 => 'register',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.abc.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.221 Safari/537.36 SE 2.X MetaSr 1.0',
+  'x-requested-with' => 'ShockwaveFlash/22.0.0.209',
+  'accept' => '*/*',
+  'referer' => 'http://www.abc.com/index.php/bis/register/index.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=8328582144; Huiskin=blue; PHPSESSID=doh3skp2bntrkt6lm9c0v34vn3',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\bis\controller\Register->index[ F:\work\thinkphp\application\bis\controller\Register.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] F:\work\thinkphp\public/../application/bis\view\register\index.html [ array (
+  0 => 'citys',
+  1 => 'categorys',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-07-07T13:29:14+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/bis/register/
+[ log ] www.abc.com/index.php/bis/register/ [运行时间：0.106006s][吞吐率：9.43req/s] [内存消耗：2,694.17kb] [文件加载：54]
+[ info ] [ LANG ] F:\work\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'bis',
+    1 => 'register',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.abc.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.221 Safari/537.36 SE 2.X MetaSr 1.0',
+  'x-requested-with' => 'ShockwaveFlash/22.0.0.209',
+  'accept' => '*/*',
+  'referer' => 'http://www.abc.com/index.php/bis/register/index.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=8328582144; Huiskin=blue; PHPSESSID=doh3skp2bntrkt6lm9c0v34vn3',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\bis\controller\Register->index[ F:\work\thinkphp\application\bis\controller\Register.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] F:\work\thinkphp\public/../application/bis\view\register\index.html [ array (
+  0 => 'citys',
+  1 => 'categorys',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-07-07T13:54:32+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/bis/index/index.html
+[ log ] www.abc.com/index.php/bis/index/index.html [运行时间：0.081604s][吞吐率：12.25req/s] [内存消耗：1,676.02kb] [文件加载：46]
+[ info ] [ LANG ] F:\work\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'bis',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.abc.com',
+  'connection' => 'keep-alive',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.221 Safari/537.36 SE 2.X MetaSr 1.0',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=8328582144; Huiskin=blue; PHPSESSID=doh3skp2bntrkt6lm9c0v34vn3',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-07-07T13:54:32+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/bis/login/index.html
+[ log ] www.abc.com/index.php/bis/login/index.html [运行时间：0.037002s][吞吐率：27.03req/s] [内存消耗：1,655.30kb] [文件加载：44]
+[ info ] [ LANG ] F:\work\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'bis',
+    1 => 'login',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.abc.com',
+  'connection' => 'keep-alive',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.221 Safari/537.36 SE 2.X MetaSr 1.0',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=8328582144; Huiskin=blue; PHPSESSID=doh3skp2bntrkt6lm9c0v34vn3',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\bis\controller\Login->index[ F:\work\thinkphp\application\bis\controller\Login.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] F:\work\thinkphp\public/../application/bis\view\login\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------

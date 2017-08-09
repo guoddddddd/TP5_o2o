@@ -1,0 +1,16 @@
+[ 2017-08-08T17:21:14+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/bis/deal/index.html
+[ error ] [0]method not exist:think\db\Query->getBisId[F:\work\thinkphp\thinkphp\library\think\db\Query.php:91]
+
+---------------------------------------------------------------
+[ 2017-08-08T17:22:14+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/bis/deal/index.html
+[ error ] [0]method not exist:think\db\Query->getBisId[F:\work\thinkphp\thinkphp\library\think\db\Query.php:91]
+
+---------------------------------------------------------------
+[ 2017-08-08T17:22:44+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/bis/deal/index.html
+[ error ] [0]method not exist:think\db\Query->getBisId[F:\work\thinkphp\thinkphp\library\think\db\Query.php:91]
+
+---------------------------------------------------------------
+[ 2017-08-08T17:22:57+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/bis/deal/index.html
+[ error ] [8]未定义变量: bisAss[F:\work\thinkphp\runtime\temp\2e5abcfe8ad4a48f1c6537cddd311006.php:61]
+
+---------------------------------------------------------------

@@ -1,0 +1,92 @@
+[ 2017-07-29T14:21:52+08:00 ] 127.0.0.1 127.0.0.1 POST /index.php/bis/location/add.html
+[ error ] [2]Illegal string offset 'status'[F:\work\thinkphp\application\bis\controller\Location.php:28]
+
+---------------------------------------------------------------
+[ 2017-07-29T14:29:17+08:00 ] 127.0.0.1 127.0.0.1 POST /index.php/bis/location/add.html
+[ error ] [8]未定义数组索引: api_address[F:\work\thinkphp\application\bis\controller\Location.php:27]
+
+---------------------------------------------------------------
+[ 2017-07-29T16:28:34+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/bis/location/
+[ error ] [1]Call to undefined method app\bis\controller\Location::model()[F:\work\thinkphp\application\bis\controller\Location.php:11]
+
+---------------------------------------------------------------
+[ 2017-07-29T16:28:34+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/bis/location/index.html
+[ error ] [1]Call to undefined method app\bis\controller\Location::model()[F:\work\thinkphp\application\bis\controller\Location.php:11]
+
+---------------------------------------------------------------
+[ 2017-07-29T16:28:36+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/bis/location/index.html
+[ error ] [1]Call to undefined method app\bis\controller\Location::model()[F:\work\thinkphp\application\bis\controller\Location.php:11]
+
+---------------------------------------------------------------
+[ 2017-07-29T16:30:02+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/bis/location/
+[ error ] [1]Call to undefined method app\bis\controller\Location::model()[F:\work\thinkphp\application\bis\controller\Location.php:11]
+
+---------------------------------------------------------------
+[ 2017-07-29T16:30:02+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/bis/location/index.html
+[ error ] [1]Call to undefined method app\bis\controller\Location::model()[F:\work\thinkphp\application\bis\controller\Location.php:11]
+
+---------------------------------------------------------------
+[ 2017-07-29T16:42:47+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/bis/location/
+[ error ] [1]Call to undefined method app\bis\controller\Location::model()[F:\work\thinkphp\application\bis\controller\Location.php:12]
+
+---------------------------------------------------------------
+[ 2017-07-29T16:42:48+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/bis/location/index.html
+[ error ] [1]Call to undefined method app\bis\controller\Location::model()[F:\work\thinkphp\application\bis\controller\Location.php:12]
+
+---------------------------------------------------------------
+[ 2017-07-29T16:47:44+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/bis/location/index.html
+[ error ] [1]Call to undefined method app\bis\controller\Location::model()[F:\work\thinkphp\application\bis\controller\Location.php:12]
+
+---------------------------------------------------------------
+[ 2017-07-29T16:50:13+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/bis/location/index.html
+[ error ] [1]Call to undefined method app\bis\controller\Location::model()[F:\work\thinkphp\application\bis\controller\Location.php:12]
+
+---------------------------------------------------------------
+[ 2017-07-29T16:51:15+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/bis/location/index.html
+[ error ] [1]Call to undefined method app\bis\controller\Location::model()[F:\work\thinkphp\application\bis\controller\Location.php:12]
+
+---------------------------------------------------------------
+[ 2017-07-29T16:51:26+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/bis/location/index.html
+[ error ] [1]Call to undefined method app\bis\controller\Location::model()[F:\work\thinkphp\application\bis\controller\Location.php:12]
+
+---------------------------------------------------------------
+[ 2017-07-29T16:53:30+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/bis/location/index.html
+[ error ] [1]Call to undefined method app\bis\controller\Location::model()[F:\work\thinkphp\application\bis\controller\Location.php:12]
+
+---------------------------------------------------------------
+[ 2017-07-29T16:59:21+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/bis/location/index.html
+[ error ] [8]未定义变量: vo[F:\work\thinkphp\runtime\temp\133b45a00c5960567ddbabc39fa3699e.php:53]
+
+---------------------------------------------------------------
+[ 2017-07-29T17:08:11+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/bis/location/index.html
+[ error ] [8]未定义变量: vo[F:\work\thinkphp\runtime\temp\133b45a00c5960567ddbabc39fa3699e.php:53]
+
+---------------------------------------------------------------
+[ 2017-07-29T17:11:26+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/bis/location/index.html
+[ error ] [1]Call to undefined method app\bis\controller\Location::model()[F:\work\thinkphp\application\bis\controller\Location.php:12]
+
+---------------------------------------------------------------
+[ 2017-07-29T17:12:02+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/bis/location/index.html
+[ error ] [1]Call to undefined method app\bis\controller\Location::model()[F:\work\thinkphp\application\bis\controller\Location.php:12]
+
+---------------------------------------------------------------
+[ 2017-07-29T17:12:42+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/bis/location/index.html
+[ error ] [1]Call to undefined method app\bis\controller\Location::model()[F:\work\thinkphp\application\bis\controller\Location.php:12]
+
+---------------------------------------------------------------
+[ 2017-07-29T17:17:36+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/bis/location/index.html
+[ error ] [2]Missing argument 1 for app\common\model\BisLocation::getNormalLocationByBisId(), called in F:\work\thinkphp\application\bis\controller\Location.php on line 17 and defined[F:\work\thinkphp\application\common\model\BisLocation.php:9]
+
+---------------------------------------------------------------
+[ 2017-07-29T17:18:12+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/bis/location/index.html
+[ error ] [8]未定义变量: vo[F:\work\thinkphp\runtime\temp\133b45a00c5960567ddbabc39fa3699e.php:53]
+
+---------------------------------------------------------------
+[ 2017-07-29T17:20:49+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/bis/location/index.html
+[ error ] [8]未定义变量: vo[F:\work\thinkphp\runtime\temp\133b45a00c5960567ddbabc39fa3699e.php:53]
+
+---------------------------------------------------------------
+[ 2017-07-29T17:43:10+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/bis/location/index.html
+[ error ] [8]未定义变量: bislocation[F:\work\thinkphp\runtime\temp\133b45a00c5960567ddbabc39fa3699e.php:51]
+
+---------------------------------------------------------------
